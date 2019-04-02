@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.ksenoZaur.Controller"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <ComboBox fx:id="comboBoxPattern" layoutX="20.0" layoutY="23.0" onAction="#comboBoxChange" prefWidth="150.0" promptText="Pattern" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="23.0" />
+        <ComboBox fx:id="comboBoxLanguages" layoutX="183.0" layoutY="23.0" onAction="#comboBoxChange" prefHeight="25.0" prefWidth="117.0" promptText="Languages" AnchorPane.leftAnchor="180.0" AnchorPane.topAnchor="23.0" />
+        <ScrollPane layoutY="125.0" prefHeight="275.0" prefWidth="580.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="62.0">
+        <content>
+        <TextArea fx:id="codeViewer" prefHeight="640.0" prefWidth="1343.0" wrapText="true" />
+        </content>
+        </ScrollPane>
+        <Button fx:id="generateCode" disable="true" layoutX="307.0" layoutY="23.0" mnemonicParsing="false" onAction="#generateButtonAction" prefHeight="25.0" prefWidth="101.0" text="Сгенерировать" />
+        <Button fx:id="showImage" disable="true" layoutX="415.0" layoutY="23.0" mnemonicParsing="false" onAction="#createWindow" prefHeight="25.0" prefWidth="136.0" text="Показать диаграмму" />
+        <Button fx:id="save" disable="true" layoutX="558.0" layoutY="23.0" mnemonicParsing="false" onAction="#saveText" prefHeight="25.0" prefWidth="74.0" text="Сохранить" />
+    </children>
+</AnchorPane>
