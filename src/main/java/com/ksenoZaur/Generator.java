@@ -7,7 +7,8 @@ public class Generator {
         return null;
     }
 
-    public void getLanguages() {
+    public List<String> getLanguages() {
 
+        return null;
     }
 }

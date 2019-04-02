@@ -42,5 +42,7 @@ public class MyStepdefs {
     @То("^я просматриваю список с доступными языками$")
     public void яПросматриваюСписокСДоступнымиЯзыками() {
 
+        List<String> languages = this.generator.getLanguages();
+
     }
 }
