@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d35ff-61c4-40f2-a13e-6f339faf5b43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ksenoZaur/MyStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ksenoZaur/Generator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/MyStepdefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/first.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/first.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com.ksenoZaur/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com.ksenoZaur/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com.ksenoZaur/first.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com.ksenoZaur/first.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ksenoZaur/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ksenoZaur/MyStepdefs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,11 +71,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com.ksenoZaur/first.feature">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ksenoZaur/MyStepdefs.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ksenoZaur/Generator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -112,10 +130,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/sample.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/StepDef.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/first.feature" />
         <option value="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ksenoZaur/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ksenoZaur/StepDef.groovy" />
+        <option value="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/first.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ksenoZaur/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ksenoZaur/Generator.java" />
       </list>
     </option>
   </component>
@@ -197,7 +216,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554230713984" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554231182196" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/ksenoZaur" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -208,6 +227,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ksenoZaur" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ksenoZaur" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -268,7 +290,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554127801181</updated>
-      <workItem from="1554127806128" duration="20005000" />
+      <workItem from="1554127806128" duration="20476000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлена первая история пользователя">
       <created>1554219432122</created>
@@ -284,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554229873014</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Переделаны истории">
+      <created>1554230876926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554230876926</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -317,7 +346,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20005000" />
+    <option name="totallyTimeSpent" value="20476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,7 +358,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -369,7 +398,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавлена первая история пользователя" />
     <MESSAGE value="Сгенерированы методы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сгенерированы методы" />
+    <MESSAGE value="Переделаны истории" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переделаны истории" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,16 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ksenoZaur/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ksenoZaur/StepDef.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -490,8 +510,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com.ksenoZaur/first.feature">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ksenoZaur/MyStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ksenoZaur/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
