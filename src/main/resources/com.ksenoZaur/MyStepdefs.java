@@ -1,19 +1,16 @@
 package com.ksenoZaur;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import cucumber.api.java.ru.Допустим;
+import cucumber.api.java.ru.Когда;
 
 public class MyStepdefs {
-    @Given("^Alice is hungry$")
-    public void aliceIsHungry() {
-    }
 
-    @When("^she eats (\\d+) cucumbers$")
-    public void sheEatsCucumbers(int arg0) {
-    }
+//    @Допустим("^Я имею класс генератор$")
+//    public void яИмеюКлассГенератор() {
+//    }
+//
+//    @Когда("^Я выбираю паттерн, я просматриваю список с доступными паттернами$")
+//    public void яВыбираюПаттернЯПросматриваюСписокСДоступнымиПаттернами() {
+//    }
 
-    @Then("^she will be full$")
-    public void sheWillBeFull() {
-    }
 }

@@ -1,10 +1,10 @@
 # Comment
+# language: ru
+
 @tag
-Feature: Eating too many cucumbers may not be good for you
+Функция: Имеется класс Generator с помощью которого можно
+  генерировать код для паттернов на разных языках.
 
-  Eating too much of anything may not be good for you.
-
-  Scenario: Eating a few is no problem
-    Given Alice is hungry
-    When she eats 3 cucumbers
-    Then she will be full
+  Сценарий: :
+    Допустим  Я имею класс генератор
+    Когда Я выбираю паттерн, я просматриваю список с доступными паттернами
