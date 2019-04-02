@@ -5,6 +5,7 @@ import cucumber.api.java.ru.Когда;
 import cucumber.api.java.ru.То;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MyStepdefs {
 
@@ -26,6 +27,8 @@ public class MyStepdefs {
 
     @То("^Я просматриваю список с доступными паттернами$")
     public void яПросматриваюСписокСДоступнымиПаттернами() {
+
+        List<String> patterns = this.generator.getPatterns();
 
     }
 

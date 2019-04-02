@@ -1,8 +1,9 @@
 package com.ksenoZaur;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class Generator {
-    public void getPatterns() {
+    public List<String> getPatterns() {
+        return null;
     }
 }
