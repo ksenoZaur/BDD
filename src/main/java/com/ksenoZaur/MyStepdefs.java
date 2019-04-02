@@ -35,6 +35,8 @@ public class MyStepdefs {
     @Когда("^Я выбираю язык$")
     public void яВыбираюЯзык() {
 
+        this.generator.getLanguages();
+
     }
 
     @То("^я просматриваю список с доступными языками$")
