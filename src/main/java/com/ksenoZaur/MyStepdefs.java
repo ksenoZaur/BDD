@@ -4,7 +4,6 @@ import cucumber.api.java.ru.Допустим;
 import cucumber.api.java.ru.И;
 import cucumber.api.java.ru.Когда;
 import cucumber.api.java.ru.То;
-import cucumber.runtime.junit.Assertions;
 import org.junit.Assert;
 
 import java.util.List;
@@ -73,16 +72,16 @@ public class MyStepdefs {
 
     @И("^список содержит язык Java$")
     public void списокСодержитЯзыкJava() {
-        Assert.assertEquals("Java", this.patterns.get( 0 ));
+        Assert.assertEquals("Java", this.languages.get( 0 ));
     }
 
     @И("^список содержит язык C#$")
     public void списокСодержитЯзыкC() {
-        Assert.assertEquals("C#", this.patterns.get( 1 ));
+        Assert.assertEquals("C#", this.languages.get( 1 ));
     }
 
     @И("^список содержит язык JavaScript$")
     public void списокСодержитЯзыкJavaScript() {
-        Assert.assertEquals("JavaScript", this.patterns.get( 2 ));
+        Assert.assertEquals("JavaScript", this.languages.get( 2 ));
     }
 }
