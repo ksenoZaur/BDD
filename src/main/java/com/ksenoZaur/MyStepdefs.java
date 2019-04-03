@@ -38,22 +38,22 @@ public class MyStepdefs {
 
     @И("^список содержит паттерн Adapter$")
     public void списокСодержитПаттернAdapter() {
-
+        Assert.assertEquals("Adapter", this.patterns.get( 0 ));
     }
 
     @И("^список содержит паттерн Proxy$")
     public void списокСодержитПаттернProxy() {
-
+        Assert.assertEquals("Proxy", this.patterns.get( 1 ));
     }
 
     @И("^список содержит паттерн Decorator$")
     public void списокСодержитПаттернDecorator() {
-
+        Assert.assertEquals("Decorator", this.patterns.get( 2 ));
     }
 
     @И("^список содержит паттерн Composite$")
     public void списокСодержитПаттернComposite() {
-
+        Assert.assertEquals("Composite", this.patterns.get( 3 ));
     }
 
 
@@ -73,15 +73,16 @@ public class MyStepdefs {
 
     @И("^список содержит язык Java$")
     public void списокСодержитЯзыкJava() {
-
+        Assert.assertEquals("Java", this.patterns.get( 0 ));
     }
 
     @И("^список содержит язык C#$")
     public void списокСодержитЯзыкC() {
-
+        Assert.assertEquals("C#", this.patterns.get( 1 ));
     }
 
     @И("^список содержит язык JavaScript$")
     public void списокСодержитЯзыкJavaScript() {
+        Assert.assertEquals("JavaScript", this.patterns.get( 2 ));
     }
 }
