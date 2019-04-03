@@ -1,5 +1,6 @@
 package com.ksenoZaur;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.ru.Допустим;
 import cucumber.api.java.ru.И;
 import cucumber.api.java.ru.Когда;
@@ -13,6 +14,9 @@ public class MyStepdefs {
     Generator generator;
     List<String> patterns;
     List<String> languages;
+
+    String currentPattern;
+    String currentLanguage;
 
     @Допустим("^Я имею класс генератор$")
     public void яИмеюКлассГенератор() {
@@ -83,5 +87,30 @@ public class MyStepdefs {
     @И("^список содержит язык JavaScript$")
     public void списокСодержитЯзыкJavaScript() {
         Assert.assertEquals("JavaScript", this.languages.get( 2 ));
+    }
+
+    @Когда("^Я выбираю паттерн \"([^\"]*)\"$")
+    public void яВыбираюПаттерн(String arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+//        Assert.assertEquals( arg0, this.generator.getPatterns().get( 0 ) );
+
+        throw new PendingException();
+    }
+
+    @И("^Я выбираю язык \"([^\"]*)\"$")
+    public void яВыбираюЯзык(String arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @И("^Я нажимаю кнопку \"([^\"]*)\"$")
+    public void яНажимаюКнопку(String arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @То("^Я получаю код паттерна на выбранном языке$")
+    public void яПолучаюКодПаттернаНаВыбранномЯзыке() {
     }
 }
