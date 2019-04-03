@@ -136,7 +136,7 @@ public class MyStepdefs {
     @И("^Я нажимаю кнопку Generate$")
     public void яНажимаюКнопкуGenerate() {
 
-        this.code = this.generator.generate();
+        this.code = this.generator.generate(this.currentLanguage, this.currentPattern);
 
     }
 
