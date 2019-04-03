@@ -93,24 +93,34 @@ public class MyStepdefs {
     public void яВыбираюПаттерн(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
 
-//        Assert.assertEquals( arg0, this.generator.getPatterns().get( 0 ) );
+        this.currentPattern = this.generator.getPatterns().get( 0 );
+        Assert.assertEquals( arg0, this.currentPattern);
 
-        throw new PendingException();
+//        throw new PendingException();
     }
 
     @И("^Я выбираю язык \"([^\"]*)\"$")
     public void яВыбираюЯзык(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
+
+        this.currentLanguage = this.generator.getLanguages().get( 0 );
+        Assert.assertEquals( arg0, this.currentLanguage);
+
         throw new PendingException();
     }
 
-    @И("^Я нажимаю кнопку \"([^\"]*)\"$")
-    public void яНажимаюКнопку(String arg0) throws Throwable {
+    @И("^Я нажимаю кнопку Generate$")
+    public void яНажимаюКнопкуGenerate() {
+
+        this.generator.generate();
+
+    }
+
+    @То("^Я получаю код, аналогичный коду в файле \"([^\"]*)\"$")
+    public void яПолучаюКодАналогичныйКодуВФайле(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+//        throw new PendingException();
     }
 
-    @То("^Я получаю код паттерна на выбранном языке$")
-    public void яПолучаюКодПаттернаНаВыбранномЯзыке() {
-    }
+
 }
