@@ -4,7 +4,6 @@ import cucumber.api.java.ru.Допустим;
 import cucumber.api.java.ru.Когда;
 import cucumber.api.java.ru.То;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MyStepdefs {
