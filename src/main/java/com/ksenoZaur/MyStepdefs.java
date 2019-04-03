@@ -36,6 +36,26 @@ public class MyStepdefs {
 
     }
 
+    @И("^список содержит паттерн Adapter$")
+    public void списокСодержитПаттернAdapter() {
+
+    }
+
+    @И("^список содержит паттерн Proxy$")
+    public void списокСодержитПаттернProxy() {
+
+    }
+
+    @И("^список содержит паттерн Decorator$")
+    public void списокСодержитПаттернDecorator() {
+
+    }
+
+    @И("^список содержит паттерн Composite$")
+    public void списокСодержитПаттернComposite() {
+
+    }
+
 
     @Когда("^Я выбираю язык$")
     public void яВыбираюЯзык() {
@@ -49,5 +69,19 @@ public class MyStepdefs {
 
         languages = this.generator.getLanguages();
 
+    }
+
+    @И("^список содержит язык Java$")
+    public void списокСодержитЯзыкJava() {
+
+    }
+
+    @И("^список содержит язык C#$")
+    public void списокСодержитЯзыкC() {
+
+    }
+
+    @И("^список содержит язык JavaScript$")
+    public void списокСодержитЯзыкJavaScript() {
     }
 }
