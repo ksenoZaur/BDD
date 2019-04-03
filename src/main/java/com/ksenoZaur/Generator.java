@@ -14,6 +14,7 @@ public class Generator {
 
     public String generate(String currentLanguage, String currentPattern) {
 
+//        if( currentPattern.equals("Adapter"))
         if( currentLanguage.equals("Java"))
         return "interface RoundPeg {private int radius;public RoundPeg( int radius );public int " +
                 "getRadius();}class SquarePeg{private int width;public SquarePeg( int width ){this.width " +

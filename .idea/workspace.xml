@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c45d35ff-61c4-40f2-a13e-6f339faf5b43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ksenoZaur/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ksenoZaur/MyStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/second.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/second.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com.ksenoZaur/second.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="136">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -91,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ksenoZaur/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+            <state relative-caret-position="374">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +131,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ksenoZaur/StepDef.groovy" />
         <option value="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/first.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ksenoZaur/Generator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ksenoZaur/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ksenoZaur/Generator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com.ksenoZaur/second.feature" />
       </list>
     </option>
@@ -201,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554288157611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554288227633" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/ksenoZaur" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -280,7 +279,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554127801181</updated>
-      <workItem from="1554127806128" duration="30311000" />
+      <workItem from="1554127806128" duration="30579000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлена первая история пользователя">
       <created>1554219432122</created>
@@ -394,13 +393,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554287288531</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Новый сценарий">
+      <created>1554288048307</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554288048307</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Добавлен код, покрывающий сценарий">
+      <created>1554288185486</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554288185486</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CucuRunner - 2019.04.03 at 17h 02m 02s.xml">
-      <configuration name="CucuRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CucuRunner - 2019.04.03 at 17h 02m 23s.xml">
       <configuration name="CucuRunner" configurationId="JUnit" />
     </history-entry>
@@ -428,9 +438,12 @@
     <history-entry file="CucuRunner - 2019.04.03 at 17h 27m 46s.xml">
       <configuration name="CucuRunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CucuRunner - 2019.04.03 at 17h 42m 42s.xml">
+      <configuration name="CucuRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30311000" />
+    <option name="totallyTimeSpent" value="30579000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,18 +462,18 @@
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.8227848" visible="true" weight="0.22692889" />
-      <window_info id="Favorites" order="5" sideWeight="0.17721519" side_tool="true" visible="true" weight="0.22692889" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.8580122" visible="true" weight="0.22692889" />
+      <window_info id="Favorites" order="5" sideWeight="0.14198783" side_tool="true" visible="true" weight="0.22692889" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.49621785" weight="0.45826513" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" sideWeight="0.49924356" weight="0.1603928" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.18305598" side_tool="true" visible="true" weight="0.3535188" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.18305598" side_tool="true" visible="true" weight="0.19312602" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.816944" visible="true" weight="0.3535188" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.816944" visible="true" weight="0.19312602" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8645991" weight="0.5368249" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -496,7 +509,9 @@
     <MESSAGE value="Добавлен код, частично покрывающий спецификации" />
     <MESSAGE value="Добавлен новый сценарий" />
     <MESSAGE value="Сценарий покрыт кодом" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сценарий покрыт кодом" />
+    <MESSAGE value="Новый сценарий" />
+    <MESSAGE value="Добавлен код, покрывающий сценарий" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен код, покрывающий сценарий" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -651,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ksenoZaur/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        <state relative-caret-position="374">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -661,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com.ksenoZaur/second.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="136">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
