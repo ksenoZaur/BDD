@@ -1,14 +1,19 @@
 package com.ksenoZaur;
 
 import cucumber.api.java.ru.Допустим;
+import cucumber.api.java.ru.И;
 import cucumber.api.java.ru.Когда;
 import cucumber.api.java.ru.То;
+import cucumber.runtime.junit.Assertions;
+import org.junit.Assert;
 
 import java.util.List;
 
 public class MyStepdefs {
 
     Generator generator;
+    List<String> patterns;
+    List<String> languages;
 
     @Допустим("^Я имею класс генератор$")
     public void яИмеюКлассГенератор() {
@@ -27,9 +32,10 @@ public class MyStepdefs {
     @То("^Я просматриваю список с доступными паттернами$")
     public void яПросматриваюСписокСДоступнымиПаттернами() {
 
-        List<String> patterns = this.generator.getPatterns();
+        patterns = this.generator.getPatterns();
 
     }
+
 
     @Когда("^Я выбираю язык$")
     public void яВыбираюЯзык() {
@@ -41,7 +47,7 @@ public class MyStepdefs {
     @То("^я просматриваю список с доступными языками$")
     public void яПросматриваюСписокСДоступнымиЯзыками() {
 
-        List<String> languages = this.generator.getLanguages();
+        languages = this.generator.getLanguages();
 
     }
 }
