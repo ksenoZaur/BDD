@@ -145,8 +145,6 @@ public class MyStepdefs {
 
         String expected = this.readFromFile("src/main/resources/com.ksenoZaur/input/" + arg0);
         Assert.assertEquals(expected, this.code);
-        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
     }
 
 
