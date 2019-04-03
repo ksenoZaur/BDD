@@ -20,8 +20,8 @@ public class MyStepdefs {
     List<String> languages;
 
     String code;
-    String currentPattern;
-    String currentLanguage;
+    Integer currentPattern;
+    Integer currentLanguage;
 
     // Чтение кода из файла для проверки
     private String readFromFile( String path ){
@@ -117,8 +117,8 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
 
         if( this.generator.getPatterns().indexOf( arg0 ) > -1)
-            this.currentPattern = arg0;
-        Assert.assertEquals( arg0, this.currentPattern);
+            this.currentPattern = this.generator.getPatterns().indexOf( arg0 );
+        Assert.assertEquals( arg0, this.generator.getPatterns().get( this.currentPattern ));
 
 //        throw new PendingException();
     }
@@ -127,9 +127,9 @@ public class MyStepdefs {
     public void яВыбираюЯзык(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         if( this.generator.getLanguages().indexOf(arg0) > -1 )
-            this.currentLanguage = arg0;
+            this.currentLanguage = this.generator.getLanguages().indexOf(arg0);
 
-        Assert.assertEquals( arg0, this.currentLanguage);
+        Assert.assertEquals( arg0, this.generator.getLanguages().get( this.currentLanguage));
 
 //        throw new PendingException();
     }
