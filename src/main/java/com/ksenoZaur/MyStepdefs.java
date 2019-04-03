@@ -116,7 +116,8 @@ public class MyStepdefs {
     public void яВыбираюПаттерн(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
 
-        this.currentPattern = this.generator.getPatterns().get( 0 );
+        if( this.generator.getPatterns().indexOf( arg0 ) > -1)
+            this.currentPattern = arg0;
         Assert.assertEquals( arg0, this.currentPattern);
 
 //        throw new PendingException();
